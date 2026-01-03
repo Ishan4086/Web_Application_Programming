@@ -1,0 +1,31 @@
+section {
+    display: flex; /* Flexbox implementation */
+    flex-direction: column; /* Vertical alignment for rows */
+    gap: 2rem;
+    width: 50%;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    flex-grow: 1.0; /* Notice the difference if removed */
+}
+
+.num_disp {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    min-width: 0; /* Refer to CSS box model */
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Custom CSS Requirement: Background and font styling */
+body {
+    background-color: #97c2ee;
+    font-family:'Times New Roman', Times, serif;
+}
